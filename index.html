@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TripClip 개인정보처리방침</title>
+<meta name="description" content="TripClip 앱의 개인정보처리방침. 기록한 내용은 원칙적으로 사용자 기기에만 저장됩니다.">
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1f2328;
+    --muted: #59636e;
+    --line: #d8dee4;
+    --accent: #4c51bf;
+    --box: #f6f8fa;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d1117; --fg: #e6edf3; --muted: #9198a1;
+      --line: #30363d; --accent: #a5b4fc; --box: #161b22;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 32px 20px 80px;
+    background: var(--bg); color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo",
+                 "Malgun Gothic", Roboto, sans-serif;
+    line-height: 1.75; font-size: 16px;
+    word-break: keep-all; overflow-wrap: anywhere;
+  }
+  main { max-width: 760px; margin: 0 auto; }
+  h1 { font-size: 1.9rem; line-height: 1.3; margin: 0 0 6px; letter-spacing: -0.02em; }
+  h2 {
+    font-size: 1.25rem; margin: 44px 0 12px; padding-top: 22px;
+    border-top: 1px solid var(--line); letter-spacing: -0.01em;
+  }
+  h2:first-of-type { border-top: none; padding-top: 0; }
+  .updated { color: var(--muted); font-size: 0.9rem; margin: 0 0 28px; }
+  p { margin: 0 0 14px; }
+  ul { margin: 0 0 14px; padding-left: 22px; }
+  li { margin: 6px 0; }
+  a { color: var(--accent); }
+  strong { font-weight: 700; }
+  code {
+    background: var(--box); padding: 2px 6px; border-radius: 5px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.88em;
+  }
+  .lead {
+    background: var(--box); border: 1px solid var(--line);
+    border-radius: 10px; padding: 16px 18px; margin: 0 0 28px;
+  }
+  .lead p:last-child { margin-bottom: 0; }
+  .scroll { overflow-x: auto; margin: 0 0 16px; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.94rem; min-width: 420px; }
+  th, td { border: 1px solid var(--line); padding: 9px 12px; text-align: left; vertical-align: top; }
+  th { background: var(--box); font-weight: 600; white-space: nowrap; }
+  .note {
+    border-left: 3px solid var(--accent); background: var(--box);
+    padding: 12px 16px; margin: 16px 0; border-radius: 0 8px 8px 0;
+  }
+  .note p:last-child { margin-bottom: 0; }
+  footer {
+    margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line);
+    color: var(--muted); font-size: 0.88rem;
+  }
+</style>
+</head>
+<body>
+<main>
+
+<h1>TripClip 개인정보처리방침</h1>
+<p class="updated">최종 업데이트: 2026년 8월 21일</p>
+
+<div class="lead">
+  <p>TripClip(&ldquo;앱&rdquo;)은 여행의 순간을 기록하는 앱입니다. <strong>계정이 없고</strong>,
+  기록한 내용은 원칙적으로 <strong>사용자 기기에만</strong> 저장됩니다. 앱은 이름·이메일·전화번호
+  같은 계정 정보를 수집하지 않습니다.</p>
+  <p>이 문서는 앱의 실제 동작을 그대로 적은 것입니다. 무엇이 기기 밖으로 나가고 무엇이
+  나가지 않는지가 핵심이므로, 그 둘을 먼저 나누어 적습니다.</p>
+</div>
+
+<h2>1. 기기에만 저장되며 밖으로 나가지 않는 것</h2>
+<p>아래 항목은 <strong>어떤 서버에도 전송되지 않습니다.</strong> 앱을 지우면 함께 사라집니다.</p>
+<div class="scroll">
+<table>
+  <thead><tr><th>항목</th><th>비고</th></tr></thead>
+  <tbody>
+    <tr><td>사진·동영상</td><td>기기 내부 저장소</td></tr>
+    <tr><td>메모·태그·여행 일정</td><td></td></tr>
+    <tr><td>여권 정보<br>(영문 성명, 번호, 생년월일, 발급·만료일, 발행국, 국적, 여권 사본 사진)</td>
+        <td><strong>AES 암호화.</strong> 사본 사진은 앱 전용 폴더에 두어 갤러리에 노출되지 않으며 경로까지 암호화</td></tr>
+    <tr><td>동행인 정보</td><td>위와 같이 암호화</td></tr>
+    <tr><td>비행편 예약(편명·일정·예약번호·탑승권 정보)</td><td>암호화</td></tr>
+    <tr><td>숙소·준비물</td><td></td></tr>
+    <tr><td>지출 기록(금액·통화·분류·결제자·참여자)</td><td></td></tr>
+    <tr><td>&lsquo;내 정보&rsquo;(이름·연락처·비상 연락처·마일리지·사진)</td><td>암호화</td></tr>
+    <tr><td>프라이빗 잠금 PIN</td><td><strong>PIN 자체는 저장하지 않습니다</strong>(4절 참고)</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>2. 기기 밖으로 나가는 것</h2>
+<p>앱이 제 기능을 하기 위해 아래 정보가 각 서비스로 전송됩니다.</p>
+<div class="scroll">
+<table>
+  <thead><tr><th>무엇</th><th>어디로</th><th>왜</th></tr></thead>
+  <tbody>
+    <tr><td>위치 좌표</td><td>Nominatim (OpenStreetMap 재단)</td><td>좌표를 주소로 바꾸기</td></tr>
+    <tr><td>검색어</td><td>Nominatim, Photon (Komoot)</td><td>장소 검색</td></tr>
+    <tr><td>보고 있는 지도 영역</td><td>CARTO</td><td>지도 타일 내려받기</td></tr>
+    <tr><td>편명·날짜</td><td>공공데이터포털(data.go.kr), 한국공항공사</td><td>운항 정보 조회</td></tr>
+    <tr><td>기기 푸시 토큰(FCM)·편명·날짜·방향·공항</td><td>앱 운영자의 서버(Cloudflare Workers)</td><td>항공편 지연 알림(선택 기능, 3절)</td></tr>
+    <tr><td>푸시 메시지</td><td>Firebase Cloud Messaging (Google)</td><td>알림 전달</td></tr>
+    <tr><td>통화 코드·날짜</td><td>Frankfurter</td><td>환율 조회. 개인정보 아님</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="note">
+  <p><strong>사진·동영상·여권 정보·메모는 위 어느 곳으로도 전송되지 않습니다.</strong></p>
+</div>
+
+<p>지도와 위치 관련 서비스는 좌표나 검색어를 받게 되므로, 각 서비스의 처리 방침이
+함께 적용됩니다.</p>
+<ul>
+  <li>OpenStreetMap 재단(Nominatim): <a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy">개인정보처리방침</a></li>
+  <li>CARTO: <a href="https://carto.com/privacy/">개인정보처리방침</a></li>
+  <li>Komoot(Photon): <a href="https://www.komoot.com/privacy">개인정보처리방침</a></li>
+  <li>Google(Firebase): <a href="https://policies.google.com/privacy">개인정보처리방침</a></li>
+</ul>
+
+<h2>3. 항공편 지연 알림 (선택 기능)</h2>
+<p>알림을 켜면 앱이 꺼져 있어도 지연을 알려주기 위해 다음을 앱 운영자의 서버에
+등록합니다.</p>
+<ul>
+  <li>기기 푸시 토큰(FCM)</li>
+  <li>편명, 날짜, 방향(출국/입국), 공항 코드, 예정 출발 시각</li>
+</ul>
+<p><strong>여권번호·성명 등 개인 식별 정보는 서버로 전송되지 않습니다.</strong>
+등록 정보는 <strong>3일 뒤 자동 삭제</strong>되며, 알림을 끄거나 해당 비행편을 지우면
+즉시 해제됩니다. 이 기능을 쓰지 않으면 아무것도 등록되지 않습니다.</p>
+
+<h2>4. 프라이빗 잠금</h2>
+<p>여행이나 사진을 숨겨 두는 기능입니다.</p>
+<ul>
+  <li><strong>PIN은 저장하지 않습니다.</strong> PBKDF2로 10만 회 늘린 해시와 무작위
+      salt만 기기의 보안 저장소에 보관하고, 확인할 때 같은 방식으로 늘려 비교합니다.</li>
+  <li>지문·얼굴 인식을 쓰는 경우 생체 정보는 <strong>기기 운영체제가 처리</strong>하며,
+      앱은 성공/실패 결과만 받습니다. 앱은 생체 정보에 접근하지 않습니다.</li>
+  <li>숨긴 항목은 기기 안에 그대로 있고, 어디로도 전송되지 않습니다.</li>
+</ul>
+
+<h2>5. 백업과 공유</h2>
+<ul>
+  <li><strong>공유·내보내기</strong>: 사용자가 직접 버튼을 눌렀을 때만, 선택한 파일이
+      사용자가 고른 다른 앱으로 전달됩니다.</li>
+  <li><strong>백업</strong>: <code>.tripbackup</code> 파일은 사용자가 직접 보관합니다(기기
+      저장소, 클라우드 드라이브 등). 앱 운영자는 이 파일에 접근하지 않습니다.</li>
+  <li>백업 파일에는 사진·동영상과 <strong>여권 정보를 푸는 암호화 키가 함께</strong>
+      들어 있어, 그 파일을 가진 사람은 내용을 볼 수 있습니다. 백업할 때
+      <strong>비밀번호를 걸면 파일 전체가 암호화</strong>됩니다(PBKDF2 10만 회 + AES).
+      백업 파일 보관은 사용자 책임입니다.</li>
+</ul>
+
+<h2>6. 보안</h2>
+<ul>
+  <li>여권·동행인·&lsquo;내 정보&rsquo; 등 민감한 항목은 기기 데이터베이스에
+      <strong>AES로 암호화</strong>해 저장합니다.</li>
+  <li>암호화 키는 <strong>운영체제 보안 저장소</strong>(Android Keystore / iOS Keychain)에
+      보관합니다.</li>
+  <li>앱과 서버 사이 통신은 HTTPS를 사용합니다.</li>
+</ul>
+
+<h2>7. 사용자의 권리와 삭제</h2>
+<ul>
+  <li>앱 안에서 언제든 여행·사진·동행인·준비물을 지울 수 있습니다.</li>
+  <li><strong>앱을 삭제하면 기기 안의 모든 데이터가 사라집니다.</strong> 따로 보관한
+      백업 파일은 사용자가 직접 지워야 합니다.</li>
+  <li>지연 알림 서버 등록은 알림을 끄면 해제되고, 남아 있어도 3일 뒤 자동 삭제됩니다.</li>
+</ul>
+
+<h2>8. 광고와 추적</h2>
+<p>앱은 <strong>광고를 보여주지 않으며</strong>, 제3자 광고·분석 추적 도구를 사용하지
+않습니다. 사용자 행동을 수집해 분석하지 않습니다.</p>
+
+<h2>9. 아동</h2>
+<p>앱은 만 13세 미만 아동을 대상으로 하지 않으며, 아동의 개인정보를 알면서 수집하지
+않습니다.</p>
+
+<h2>10. 변경 고지</h2>
+<p>이 방침이 바뀌면 이 문서의 &lsquo;최종 업데이트&rsquo; 날짜를 갱신합니다.</p>
+
+<h2>11. 문의</h2>
+<p>개인정보 처리에 관한 문의는 Google Play 스토어의 TripClip 페이지에 표시된
+개발자 연락처로 보내주세요.</p>
+
+<footer>
+  TripClip &middot; 최종 업데이트 2026-08-21
+</footer>
+
+</main>
+</body>
+</html>
